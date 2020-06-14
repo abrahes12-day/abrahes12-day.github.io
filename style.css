@@ -36,6 +36,11 @@ header {
   background-color: #181818;
 }
 
+.navbar a:hover {
+  color: #48cfad;
+  transition: all .5s;
+}
+
 header h1,
 header a,
 .text p,
@@ -43,8 +48,29 @@ header a,
 .skills h1,
 .work h1,
 .contact h1 {
-  color: #707070;
+  color: #707070;  
 }
+
+#about h1:hover {
+  color: #48cfad;
+  transition: all .5s;
+}
+
+#skills h1:hover {
+  color: #48cfad;
+  transition: all .5s;
+}
+
+#work h1:hover {
+  color: #48cfad;
+  transition: all .5s;
+}
+
+#contact h1:hover {
+  color: #48cfad;
+  transition: all .5s;
+}
+
 
 li {
   list-style: none;
@@ -241,7 +267,7 @@ div[class^='tag-'] p {
 div[class^='bar-'] {
   position: absolute;
   background-color: #48cfad;
-  height: 30px;
+  height: 10px;
   border-radius: 20px;
   margin: 2.7px;
 }
