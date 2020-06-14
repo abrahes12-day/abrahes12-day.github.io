@@ -144,7 +144,10 @@ span.m-left {
 }
 
 .about h1,
-.work h1 {
+.work h1,
+.contact h1,
+.skills h1 
+ {
   font-size: 10rem;
   z-index: 0;
   opacity: .1;
@@ -156,14 +159,14 @@ span.m-left {
   box-shadow: 0 0 1.2rem rgba(0, 0,0, 25);
   padding: 50px;
   position: relative;
-  top: -70px;
+  top: -50px;
   left: 50%;
   right: 50%;
   transform: translateX(-50%);
   z-index: 1;
 }
 
-a.about-me-info p {
+.about-me-info p {
   font-size: 1.3rem;
   color: #bebebe;
 }
@@ -186,12 +189,10 @@ a.about-me-info p {
   height: 100vh;
 }
 
-.skills h1,
-.contact h1 {
+ .skills h1,
+ .contact h1 {
   text-align: right;
-  font-size: 10rem;
-  opacity: -1;
-}
+} 
 
 .skills-info {
   font-size: 1.3rem;
